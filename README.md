@@ -3,6 +3,11 @@
 달리기반 실습 과제입니다.  
 1일차에 배운 내용들을 토대로 풀 수 있도록 구성되어 있습니다.
 
+Repository를 fork 하여 본인의 repository로 옮긴 후,
+각각의 문항에 맞는 js파일을 만들어서 git에 push해주세요.
+(ex: quiz01.js, quiz02.js, quiz03.js ...)
+
+
 &nbsp;
 
 ## 1. 빈칸 채우기 문제
