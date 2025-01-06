@@ -124,7 +124,7 @@ console.log(scores);
 
 아래 코드는 두 명의 유저(유저 A, 유저 B)가 각각 장바구니를 가지고 있다고 가정한 예시입니다.
 
-B 유저에게 할인 쿠폰을 적용하려고 applyCoupon 함수를 만들었는데, 실행하고 나니 유저 A의 장바구니가 엉뚱하게 바뀌었습니다.
+B 유저에게 할인 쿠폰을 적용하려고 applyCoupon 함수를 만들었습니다.
 
 ```javascript
 function applyCoupon(cart, coupon) {
@@ -144,13 +144,10 @@ const userBCart = userACart;
 const coupon = { discount: 5000 };
 
 applyCoupon(userBCart, coupon);
-
-console.log("userACart:", userACart.items);
-console.log("userBCart:", userBCart.items);
 ```
 
 1.	실행 결과로 userACart.items와 userBCart.items는 각각 어떻게 달라져 있을까요?
 
-2.	두 cart가 왜 동일하게 바뀌게 되었는지, 그 이유를 설명해보세요.
+2.	1번의 결과에 대한 이유를 설명해보세요.
 
-3.	원래 의도대로라면 유저 A와 유저 B 장바구니가 독립적으로 동작해야 하는데, 어떻게 수정해야 할까요?
+3.	원래 의도대로라면 유저 A와 유저 B 장바구니가 독립적으로 동작해야 하는데, 그렇게 하려면 코드를 어떻게 수정해야 할까요?
