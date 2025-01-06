@@ -124,7 +124,7 @@ console.log(scores);
 
 아래 코드는 두 명의 유저(유저 A, 유저 B)가 각각 장바구니를 가지고 있다고 가정한 예시입니다.
 
-할인 쿠폰을 적용하려고 applyCoupon 함수를 만들었는데, 실행하고 나니 유저 A의 장바구니가 엉뚱하게 바뀌었습니다.
+B 유저에게 할인 쿠폰을 적용하려고 applyCoupon 함수를 만들었는데, 실행하고 나니 유저 A의 장바구니가 엉뚱하게 바뀌었습니다.
 
 ```javascript
 function applyCoupon(cart, coupon) {
